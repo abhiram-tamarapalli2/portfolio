@@ -4,6 +4,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/abhiram-tamarapalli)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:abhiram.tamarapalli@example.com)
 
+> **Note**: This README contains example project descriptions and placeholder content (email addresses, publication links). Customize these sections with your actual information, projects, and credentials.
+
 ---
 
 ## 📖 About Me
