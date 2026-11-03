@@ -1,128 +1,48 @@
-# Build a Modern Portfolio Website with React & TailwindCSS
+# Abhiram Tamarapalli — Developer Portfolio
 
+A React-based portfolio focused on **AI/ML, generative AI, AWS cloud, and DevOps**.
 
-  <div>
-    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    <img src="https://img.shields.io/badge/-Lucide Icons-FD4D4D?style=for-the-badge&logo=lucide" alt="Lucide Icons" />
-    <img src="https://img.shields.io/badge/-Radix UI-9D4EDD?style=for-the-badge&logo=data:image/svg+xml;base64..." alt="Radix UI" />
-  </div>
-  <h3 align="center">Create a Stunning Developer Portfolio with Animations, Dark Mode, and Projects Showcase</h3>
-  <div align="center">
-    Follow the full video tutorial on 
-    <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank"><b>YouTube</b></a>
-  </div>
-  <br />
-</div>
+**GitHub:** https://github.com/abhiram-tamarapalli2  
+**LinkedIn:** https://www.linkedin.com/in/abhiram-tamarapalli-6a8177330
 
-## 📋 Table of Contents
+## What this portfolio showcases
 
-1. [Introduction](#-introduction)
-2. [Tech Stack](#-tech-stack)
-3. [Features](#-features)
-4. [Quick Start](#-quick-start)
-5. [Screenshots](#-screenshots)
-6. [Deployment](#-deployment)
+- **AyuCore AI:** Flask medical-information chatbot prototype using Google Gemini, LangChain, Pinecone and sentence-transformer embeddings. [View code](https://github.com/abhiram-tamarapalli2/Ayucore-AI).
+- **Waste Flow Fusion / EcoCollect:** private React + TypeScript waste-management interface prototype with dashboard, collection and marketplace screens. AI/IoT integrations are planned, not verified as live.
+- **This portfolio:** responsive React/Vite site with animated sections for projects, skills, experience and contact.
 
----
+## Stack
 
-## 🚀 Introduction
+React 18, Vite 5, JavaScript, Tailwind CSS, Framer Motion and Lucide icons.
 
-In this tutorial, you'll learn how to build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and **Lucide Icons**. From dark mode support to responsive animations and deployable project showcases, this video walks you through every step—perfect for developers looking to level up their frontend skills or apply for jobs.
-
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
-
----
-
-## ⚙️ Tech Stack
-
-* **React** – Component-based UI development
-* **Vite** – Lightning-fast build tool
-* **TailwindCSS** – Utility-first CSS for styling
-* **Lucide Icons** – Clean and beautiful icon pack
-* **Radix UI** – Accessible component primitives
-* **TypeScript (optional)** – Type safety and tooling
-* **GitHub & Vercel** – Deployment
-
----
-
-## ⚡️ Features
-
-* 🌑 **Light/Dark Mode Toggle**
-  Save theme preference in local storage with beautiful transitions
-
-* 💫 **Animated Backgrounds**
-  Stars, meteors, scroll effects, and glowing UI elements
-
-* 📱 **Responsive Navigation**
-  Desktop and mobile menus with glassmorphism
-
-* 👨‍💻 **Hero & About Sections**
-  Showcase who you are with smooth intro animations and buttons
-
-* 📊 **Skills Grid**
-  Filterable progress bars and categories with animated width
-
-* 🖼️ **Projects Showcase**
-  Display screenshots, tech stacks, and GitHub/demo links
-
-* 📩 **Contact Section**
-  Social icons + responsive contact form with toast notifications
-
-* 🚀 **One-Click Deployment**
-  Easily host your site with Vercel and GitHub
-
----
-
-## 👌 Quick Start
-
-### Prerequisites
-
-* [Node.js](https://nodejs.org/)
-* [Git](https://git-scm.com/)
-
-### Clone and Run
+## Run locally
 
 ```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
+git clone https://github.com/abhiram-tamarapalli2/portfolio.git
+cd portfolio
 npm install
 npm run dev
 ```
 
-Your app will be available at: [http://localhost:5173](http://localhost:5173)
+Open the URL printed by Vite (usually http://localhost:5173).
 
----
+## Production build
 
-## 🖼️ Screenshots
+```bash
+npm run build
+npm run preview
+```
 
-> 📸 Add screenshots of your Hero section, Projects grid, and Contact form here to show off your site.
+Deploy the generated `dist/` folder to a static hosting provider. Configure contact-form credentials and the destination inbox before deploying; never commit private API keys.
 
----
+## Portfolio maintenance
 
-## ☁️ Deployment
+- Link project cards to working repositories or demos; avoid placeholder `#` links.
+- Publish real screenshots and measurable benchmarks *after* testing them.
+- Clearly label prototypes and future features.
+- Add credential verification links only when available.
+- Preserve third-party license and attribution requirements when reusing code or assets.
 
-### Deploy on Vercel
+## Origins and licensing
 
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click **Deploy**
-
-Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
-
----
-
-## 🔗 Useful Links
-
-* [React Documentation](https://reactjs.org/)
-* [Tailwind CSS Docs](https://tailwindcss.com/)
-* [Lucide Icons](https://lucide.dev/)
-* [Radix UI](https://www.radix-ui.com/)
-* [Vite](https://vitejs.dev/)
-* [Vercel](https://vercel.com/)
-
----
-
-Let me know if you'd like me to generate a version with your actual GitHub repo, YouTube URL, or a banner image suggestion!
+The repository includes an MIT `LICENSE` file. UI libraries and other dependencies retain their own licenses. If any sections were derived from a tutorial or template, preserve its original attribution and license as applicable. Project descriptions reflect repository contents, not an independent functionality audit.
